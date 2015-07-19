@@ -1,0 +1,13 @@
+*.suo
+27JUL2015/27JUL2015.vcxproj.filters
+*.log
+27JUL2015/Debug/Main.obj
+*.tlog
+27JUL2015/Debug/vc120.idb
+*.pdb
+Debug/Q1.exe
+*.ilk
+Debug/Q5.exe
+*.idb
+Q5/Q5.vcxproj.filters
+*.obj
