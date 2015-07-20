@@ -11,3 +11,5 @@ Debug/Q5.exe
 *.idb
 Q5/Q5.vcxproj.filters
 *.obj
+*.filters
+27JUL2015.sdf

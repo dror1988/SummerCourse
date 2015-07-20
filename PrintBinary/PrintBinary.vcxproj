@@ -11,9 +11,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{21B76845-2D55-4C9C-8E8B-208F07A037DF}</ProjectGuid>
+    <ProjectGuid>{596791CB-C668-4D72-BD75-71DD871A4690}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Q5</RootNamespace>
+    <RootNamespace>PrintBinary</RootNamespace>
+    <ProjectName>PrintBinary</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -78,11 +79,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Converter.cpp" />
     <ClCompile Include="Main.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Converter.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
