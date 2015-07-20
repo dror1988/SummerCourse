@@ -174,8 +174,6 @@ char* Convert2Float(bool neg, char *i, char *f, bool double_percision){
 		numStr[strlen(i)] = '.';
 		strcpy(numStr + strlen(i) + 1, f);
 	}
-	//}else
-	//	strcpy(numStr + strlen(i), f);
 
 	if (double_percision==true)
 		binNum=_strdup(Base2Base(numStr, 10, 2, 64));
