@@ -7,11 +7,6 @@
 #include <string.h>
 #include <math.h>
 
-//unsigned int findPoint(const char* src);
-double Base2Decimal(const char* src, unsigned int src_base, unsigned int percision);
-char* Decimal2Base(double src, unsigned int dst_base, unsigned int percision);
-char* Base2Base(const char* src, unsigned int src_base, unsigned int dst_base, unsigned int percision);
-
 // find fraction point in the string  if there is any
 unsigned int findPoint(const char* src);
 // convert char to num
@@ -22,7 +17,14 @@ double Base2Decimal(const char* src, unsigned int src_base, unsigned int percisi
 char *convertWhole(int wholeVal, unsigned int dst_base);
 //convert the fraction part
 char *convertFraction(double fractionVal, unsigned int dst_base, unsigned int percision);
+//remove trailing spaces
 char* removeTrailingZeros(char* str);
+
+//convert from decimal to a given base
 char* Decimal2Base(double src, unsigned int dst_base, unsigned int percision);
+//converts from src number src_base to dst_base with the given percision
+char* Base2Base(const char* src, unsigned int src_base, unsigned int dst_base, unsigned int percision);
+//unsigned int findPoint(const char* src);
+double Base2Decimal(const char* src, unsigned int src_base, unsigned int percision);
 
 #endif
